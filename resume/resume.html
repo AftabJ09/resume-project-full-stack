@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume</title>
+<style>
+  *{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  }
+
+  html body{
+  margin:0;
+  padding:0;
+  height:100vh;
+
+  }
+  body{
+      display:flex;
+      justify-content:center;
+      background-color:black;
+
+
+
+  }
+  h3,h4{
+  color:#ffb53e
+  }
+  .page{
+  background-color:
+#272727;
+      color:white;
+      margin:10px;
+      padding-top:10px;
+      padding-bottom:10px;
+      width:40%;
+      display:block;
+      position:absolute;
+      height:100vh;
+      border:1.5px solid black;
+      box-sizing:border-box;
+      overflow:hidden;
+      min-height:900px;
+      transform:scale(0.75);
+      transform-origin:top center;
+  }
+
+  .header{
+  padding-left:20px;
+    padding-bottom:20px;
+    display:flex;
+    align-items:center;
+    gap:0.5rem;
+  }
+  img{
+    border-radius:50%;
+    height:8rem;
+    width:8rem;
+    border:4px solid #ffb53e;
+  }
+.profile_name{
+    max-width:500px;
+    text-align:justify;
+    padding-right:20px;
+    overflow:hidden;
+    font-size:12px;
+
+
+
+}
+
+.profile_name h3{
+    font-size:40px;
+}
+.profile_description{
+  padding-top:10px;
+}
+.content{
+  display:flex;
+
+}
+
+.skills_data{
+  display:grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  gap:3px;
+}
+
+.left{
+width:40%;
+padding-left:20px;
+box-sizing:border-box;
+overflow-hidden;
+font-size:12px;
+}
+
+.right{
+
+width:60%;
+box-sizing:border-box;
+overflow:hidden;
+font-size:12px;
+
+}
+
+.internship{
+    text-align:justify;
+    width:300px;
+    box-size:border-box;
+
+
+}
+  .internship h4{
+      padding-left:10px;
+  }
+  .internship p{
+  padding-left:20px;
+  }
+
+  .projects{
+    text-align:justify;
+    width:300px;
+    box-sizing:border-box;
+  }
+
+    .projects h4{
+      padding-left:10px;
+  }
+  .projects p{
+  padding-left:20px;
+  }
+</style>
+</head>
+
+
+<body>
+      <div class="page">
+
+          <div class="header">
+              <div class="profile_pic">
+                <img src="AftabJ.png" alt="Aftab J">
+              </div>
+            <div class="profile_name">
+                  <h3>Aftab J</h3>
+                  <div class="profile_description">I am a dedicated and curious Full Stack Java Developer with a strong interest in building user-friendly and efficient web applications. I enjoy working on both backend and frontend, and I’m always eager to learn new technologies, improve my skills, and contribute to meaningful projects. I value clean code, good design, and teamwork.</div>
+            </div>
+          </div>
+
+          <div class="content">
+              <div class="left">
+                    <div class="contact">
+                      <h3>Contact Details</h3>
+                      <br>
+                      <p>Email: aftab.50100@gmail.com</p>
+                      <p>Phone: +91 8217284838</p>
+                      <p>Address: Bangalore </p>
+                    </div>
+
+                <div class="education">
+                  <h3>Education Details</h3>
+                  <br>
+                  <p> B.E in AI&ML <br>From Vijaya Vittala Institute of Technology <br>Passout in 2025</p>
+                  <p><br>12<sup>th</sup> Standard in PCMC <br> From Christel House PU College<br>Passout in 2021</p>
+                  <p><br>1oth<sup>th</sup> Standard KSEEB Board <br> From Christel House India Learning Center<br>Passout in 2019</p>
+                </div>
+                <div class="Skills">
+                  <h3>Skills</h3>
+                  <br>
+                  <div class="skills_data">
+                  <div>Java</div>
+                  <div>Python</div>
+                  <div>MySQL</div>
+                  <div>Rest API</div>
+                  <div>Git and Github</div>
+                </div>
+
+                </div>
+                <div class="hobbies">
+                  <h3>Hobbies</h3>
+                  <br>
+                  <p>-Play Chess</p>
+                  <p>-Build 3D models using Prisma software</p>
+
+                </div>
+              </div>
+
+              <div class="right">
+                <div class="internship">
+                  <h3>Internships</h3>
+                  <br>
+                  <h4>DevOps Engineer</h4>
+                  <p>Sep 2024 - Feb 2025 (5 months)</p>
+                  <p>I completed a DevOps internship training from 25/09/2024 to 13/02/2025, covering Python, MySQL, NoSQL, Git, GitHub, Jenkins, Docker, Kubernetes, cloud computing fundamentals, and computer networks. The program provided hands-on exposure to version control, CI/CD, containerization, and deployment practices. Through practical labs and assignments, I built a strong foundation in modern DevOps tools and workflows.</p>
+                  <br>
+                  <h4>Machine Learning</h4>
+                  <p>Oct 2023 - Nov 2023 (1 month)</p>
+                  <p>Following Internship gave exposure to Machine Learning and Deep Learning,Libraries such as Numpy,Pandas,Matplotlib,ScikitLearn were thought.Included a Project on Prediction of Electricity consumption.Included project based Learning,using google colab and Kaggle.</p>
+              </div>
+                  <div class="projects">
+                    <h3>Projects</h3>
+                    <br>
+                    <h4>Course portal</h4>
+                    <p>Jun 2024 - Jul 2024</p>
+                    <p>I have made student management using tkinter for gui and SQL for database.
+                      But I would like to share my experience about my recent project , the objective was to build a single page application using javascript and mongoDB. (Project is deployed)</p>
+                    <br>
+                    <h4>Electricity Power Consumption (ML Project)</h4>
+                    <p>Jan 2024 - Jan 2024</p>
+                    <p>Developed a time series forecasting model using Keras to predict electricity consumption.</p>
+                    <br>
+                    <h4>Dynamic Educational Portal using Langchain</h4>
+                    <p>Mar 2025 - May 2025</p>
+                    <p>Dynamic Educational Portal using LangChain is a web-based platform designed for tutors to enhance their teaching experience. By leveraging LangChain, the portal offers personalized content, dynamic quizzes, and real-time feedback, helping tutors engage with students more effectively and adapt lessons based on student progress and needs.</p>
+                  </div>
+          </div>
+
+      </div>
+</body>
+</html>
